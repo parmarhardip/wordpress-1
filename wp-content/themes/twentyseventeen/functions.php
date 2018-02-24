@@ -589,4 +589,4 @@ require get_parent_theme_file_path( '/inc/icon-functions.php' );
 function wp_hook_testing(){
 	echo "WP Hook Testing";
 }
-add_action( 'wp_head', 'wp_hook_testing');
+add_action( 'wp_head', 'wp_hook_testing'); 
